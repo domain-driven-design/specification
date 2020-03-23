@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,e,n){"use strict";n.r(e);var a=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},s=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"about"},[n("h1",[t._v("领域驱动设计概念的规范化，通过开发工具对领域驱动设计进行落地，提高开发效率。")])])}],u=n("2877"),c={},l=Object(u["a"])(c,a,s,!1,null,null,null);e["default"]=l.exports}}]);
+//# sourceMappingURL=about.5257a712.js.map
