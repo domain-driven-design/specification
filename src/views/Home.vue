@@ -18,6 +18,8 @@
           <li><a href="#" target="_blank" rel="noopener">项目脚手架</a></li>
           <li><a href="#" target="_blank" rel="noopener">在线模型设计器</a></li>
           <li><a href="#" target="_blank" rel="noopener">领域模型生成器</a></li>
+          <li><a href="#" target="_blank" rel="noopener">API SDK 生成器</a></li>
+          <li><a href="#" target="_blank" rel="noopener">表单生成器</a></li>
           <li><a href="#" target="_blank" rel="noopener">领域模型广场</a></li>
         </ul>
         <h3>文章</h3>
