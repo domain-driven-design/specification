@@ -19,44 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fcd3046-36b5-4404-95a8-6643f2927d2b" name="Default Changelist" comment="refactor build system">
-      <change afterPath="$PROJECT_DIR$/sources/event-storming-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/other-resources.md" afterDir="false" />
+    <list default="true" id="5fcd3046-36b5-4404-95a8-6643f2927d2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/app.420fc469.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/logo.9227007d.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/about.5257a712.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/about.5257a712.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app.bf6fdaef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app.bf6fdaef.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.85fc45a3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.85fc45a3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-tsx.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Concepts.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/example.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1kpKFbNOTLAOlCj1SK1KfDgg7c0" />
   <component name="ProjectLevelVcsManager">
@@ -116,7 +82,7 @@
       <workItem from="1585054046261" duration="727000" />
       <workItem from="1606391992643" duration="858000" />
       <workItem from="1606393107833" duration="3173000" />
-      <workItem from="1608357310669" duration="791000" />
+      <workItem from="1608357310669" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="add vue config">
       <created>1584929560552</created>
@@ -167,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584943310914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change to plain text site">
+      <created>1608358120409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608358120410</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change to plain text site">
+      <created>1608358143965</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608358143965</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,16 +183,26 @@
     <MESSAGE value="refactor build system" />
     <MESSAGE value="add feature toggle" />
     <MESSAGE value="update git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
+    <MESSAGE value="change to plain text site" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to plain text site" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1608358100414">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1608358143863">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1608358100414" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606448639024">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1608358143863" />
+    <state x="144" y="93" key="MergeDialog" timestamp="1608358177402">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
+    <state x="144" y="93" key="MergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1608358177402" />
+    <state x="358" y="194" key="MultipleFileMergeDialog" timestamp="1608358177447">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="358" y="194" key="MultipleFileMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1608358177447" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1608358182621">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1608358182621" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1606448639024" />
   </component>
   <component name="masterDetails">
