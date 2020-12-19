@@ -1,0 +1,59 @@
+
+/*common*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #1A2617;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgba(100,100,100,0.1);
+    padding: 20px;
+}
+img {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+
+/*home*/
+.main {
+    text-align: center;
+    min-height: 600px;
+}
+
+.logo {
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.list {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+.list ul{
+    display: flex;
+}
+.list li{
+    line-height: 30px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*detail*/
