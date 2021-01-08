@@ -1,10 +1,10 @@
-
 /*common*/
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: #1A2617;
@@ -13,16 +13,18 @@ body{
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
-    background-color: rgba(100,100,100,0.1);
+    background-color: rgba(100, 100, 100, 0.1);
     padding: 20px;
 }
+
 img {
     max-width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-ul{
+
+ul {
     list-style: none;
 }
 
@@ -44,16 +46,25 @@ ul{
     width: 200px;
     text-align: center;
 }
-.list ul{
+
+.list ul {
     display: flex;
 }
-.list li{
+
+.list li {
     line-height: 30px;
 }
 
-.footer{
+.footer {
     text-align: center;
     font-size: 12px;
 }
 
 /*detail*/
+
+
+/*side bar*/
+#TOC {
+    position: fixed;
+    top: 10px;
+}
