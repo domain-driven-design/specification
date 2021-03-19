@@ -70,10 +70,10 @@
 </ul></li>
 <li><a href="#事件风暴类概念"><span class="toc-section-number">5</span> 事件风暴类概念</a><ul>
 <li><a href="#事件风暴event-storming"><span class="toc-section-number">5.1</span> 事件风暴（Event Storming）</a></li>
-<li><a href="#执行者-actor"><span class="toc-section-number">5.2</span> 执行者 (Actor)</a></li>
-<li><a href="#命令-command"><span class="toc-section-number">5.3</span> 命令 (Command)</a></li>
-<li><a href="#事件event"><span class="toc-section-number">5.4</span> 事件（Event）</a></li>
-<li><a href="#业务规则-policy"><span class="toc-section-number">5.5</span> 业务规则 (policy)</a></li>
+<li><a href="#命令-command"><span class="toc-section-number">5.2</span> 命令 (Command)</a></li>
+<li><a href="#事件event"><span class="toc-section-number">5.3</span> 事件（Event）</a></li>
+<li><a href="#业务规则-policy"><span class="toc-section-number">5.4</span> 业务规则 (policy)</a></li>
+<li><a href="#执行者-actor"><span class="toc-section-number">5.5</span> 执行者 (Actor)</a></li>
 <li><a href="#用户-user"><span class="toc-section-number">5.6</span> 用户 (User)</a></li>
 <li><a href="#外部系统-out-system"><span class="toc-section-number">5.7</span> 外部系统 (Out System)</a></li>
 <li><a href="#本系统-system"><span class="toc-section-number">5.8</span> 本系统 (System)</a></li>
@@ -209,18 +209,35 @@
     <p><strong>分布式应用系统是建立在网络之上的应用软件系统，不同单元通过网络集成。</strong></p>
     <h1 id="事件风暴类概念"><span class="header-section-number">5</span> 事件风暴类概念</h1>
     <h2 id="事件风暴event-storming"><span class="header-section-number">5.1</span> 事件风暴（Event Storming）</h2>
-    <h2 id="执行者-actor"><span class="header-section-number">5.2</span> 执行者 (Actor)</h2>
-    <h2 id="命令-command"><span class="header-section-number">5.3</span> 命令 (Command)</h2>
-    <h2 id="事件event"><span class="header-section-number">5.4</span> 事件（Event）</h2>
-    <h2 id="业务规则-policy"><span class="header-section-number">5.5</span> 业务规则 (policy)</h2>
+    <p><strong>事件风暴是一种以工作坊的形式，使用 DDD 建模的方式。</strong></p>
+    <p>事件风暴的发明人是 Alberto Brandolini ，它来源于 Gamestorming，通过工作坊的方式将领域专家和技术专家拉到一起，进行建模。</p>
+    <h2 id="命令-command"><span class="header-section-number">5.2</span> 命令 (Command)</h2>
+    <p><strong>命令是执行者发起的操作，构成要件是执行者和行为。</strong></p>
+    <h2 id="事件event"><span class="header-section-number">5.3</span> 事件（Event）</h2>
+    <p><strong>事件是系统状态发生的某种客观现象。</strong></p>
+    <p>事件的评价方式是系统状态是否发生变化。系统状态变化意味着领域模型被业务规则操作，这是观察系统业务的好方法。</p>
+    <h2 id="业务规则-policy"><span class="header-section-number">5.4</span> 业务规则 (policy)</h2>
+    <p><strong>业务规则是指对业务定义和约束的描述，用于维持业务结构或控制和影响业务的行为。</strong></p>
+    <h2 id="执行者-actor"><span class="header-section-number">5.5</span> 执行者 (Actor)</h2>
+    <p><strong>执行者是指操作系统的主体，是导致系统状态变化的触发源。</strong></p>
+    <p>执行者有点像 UML 的涉众，不过区别是执行者不仅是用户，还包括外部系统和内部系统。 在事件风暴中，执行者可以是：用户、外部系统、本系统、定时器。</p>
     <h2 id="用户-user"><span class="header-section-number">5.6</span> 用户 (User)</h2>
+    <p><strong>作为执行者的概念下的用户，是指使用软件或服务的人。</strong></p>
     <h2 id="外部系统-out-system"><span class="header-section-number">5.7</span> 外部系统 (Out System)</h2>
+    <p><strong>作为执行者的概念下的外部系统，系统开放 API 的调用发起者。</strong></p>
     <h2 id="本系统-system"><span class="header-section-number">5.8</span> 本系统 (System)</h2>
+    <p><strong>作为执行者的概念下的系统本身。</strong></p>
     <h2 id="定时器-timer"><span class="header-section-number">5.9</span> 定时器 (Timer)</h2>
+    <p><strong>作为执行者的概念下的定时器或其他定时任务。</strong></p>
     <h2 id="参与人-participants"><span class="header-section-number">5.10</span> 参与人 (Participants)</h2>
+    <p><strong>作为工作坊的参与人员，应区别于执行者。</strong></p>
+    <p>参与人只是一种角色，而非具体的一个人，可以是多个自然人做群体参与，也可以一人分饰不同的角色。</p>
     <h2 id="领域专家-domain-expert"><span class="header-section-number">5.11</span> 领域专家 (Domain Expert)</h2>
+    <p><strong>领域专家是指熟悉业务规则的人，在工作坊中一般是能敲定业务规则的人。</strong></p>
     <h2 id="技术专家-tech-expert"><span class="header-section-number">5.12</span> 技术专家 (Tech Expert)</h2>
+    <p><strong>技术专家是指熟悉技术方案和实现方式的人，能给出可行的技术方案和了解基础设计的限制条件。</strong></p>
     <h2 id="主持人-facilitator"><span class="header-section-number">5.13</span> 主持人 (Facilitator)</h2>
+    <p><strong>主持人工作坊流程的推动者，以及 DDD 方法论的守护者。</strong></p>
 </div>
 
 </body>

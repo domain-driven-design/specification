@@ -1,21 +1,6 @@
-# DDD Design Workshop Guide
+---
+title: DDD Design Workshop Guide
+numbersections: true
+---
 
-## introduce
-
-## prepare
-
-## divide sub-domain
-
-## divide business scenario
-
-## identify domain events
-
-## identify command
-
-## identify domain model
-
-## identify bounded context
-
-## model design
-
-## model to implementation
+Coming soon~
