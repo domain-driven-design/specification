@@ -5,11 +5,10 @@ body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
     letter-spacing: 0;
-    margin: 0 auto;
+    margin: 0;
     overflow-x: hidden;
     background-color: rgba(100, 100, 100, 0.1);
     padding: 20px;
-    width: 960px;
 }
 
 img {
@@ -57,32 +56,9 @@ ul {
 
 /*detail*/
 
-#title-block-header h1 {
-    text-align: center;
-}
 
-.detail h1 {
-    font-size: 16px;
-}
-
-.detail h2 {
-    font-size: 14px;
-}
-
+/*side bar*/
 #TOC {
-    padding: 30px;
-}
-
-#TOC > ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#TOC > ul > li > ul {
-    list-style-position: inside;
-}
-
-#TOC > ul > li {
-    width: 25%;
-    margin-top: 20px;
+    position: fixed;
+    top: 10px;
 }
