@@ -1,4 +1,7 @@
-# DDD Concept Reference
+---
+title: DDD Concept Reference
+numbersections: true
+---
 
 ## ubiquitous language
 

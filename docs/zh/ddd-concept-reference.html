@@ -19,31 +19,134 @@
 <nav id="TOC" role="doc-toc">
         <ul>
 <li><a href="#通用类概念"><span class="toc-section-number">1</span> 通用类概念</a><ul>
-<li><a href="#模型"><span class="toc-section-number">1.1</span> 模型</a></li>
-<li><a href="#建模"><span class="toc-section-number">1.2</span> 建模</a></li>
+<li><a href="#领域驱动设计ddd"><span class="toc-section-number">1.1</span> 领域驱动设计（DDD）</a></li>
+<li><a href="#模型驱动设计model-driven-design"><span class="toc-section-number">1.2</span> 模型驱动设计（Model driven design）</a></li>
+<li><a href="#建模-modeling"><span class="toc-section-number">1.3</span> 建模 (Modeling)</a></li>
+<li><a href="#模型-model"><span class="toc-section-number">1.4</span> 模型 (Model)</a></li>
+<li><a href="#软件设计the-software-design"><span class="toc-section-number">1.5</span> 软件设计（The software design）</a></li>
+<li><a href="#战略设计strategic-design"><span class="toc-section-number">1.6</span> 战略设计（Strategic Design）</a></li>
+<li><a href="#战术设计-tactical-design"><span class="toc-section-number">1.7</span> 战术设计 (Tactical design)</a></li>
+<li><a href="#软件-software"><span class="toc-section-number">1.8</span> 软件 (Software)</a></li>
+<li><a href="#原则principle"><span class="toc-section-number">1.9</span> 原则（Principle）</a></li>
+<li><a href="#通用语言ubiquitous"><span class="toc-section-number">1.10</span> 通用语言（Ubiquitous）</a></li>
+<li><a href="#聚焦核心域-focus"><span class="toc-section-number">1.11</span> 聚焦核心域 (Focus)</a></li>
+<li><a href="#协作共创-collaboration"><span class="toc-section-number">1.12</span> 协作共创 (Collaboration)</a></li>
+<li><a href="#持续建模-continuous"><span class="toc-section-number">1.13</span> 持续建模 (Continuous)</a></li>
+<li><a href="#上下文context"><span class="toc-section-number">1.14</span> 上下文（Context）</a></li>
 </ul></li>
-<li><a href="#建模类概念"><span class="toc-section-number">2</span> 建模类概念</a><ul>
-<li><a href="#模型-1"><span class="toc-section-number">2.1</span> 模型</a></li>
-<li><a href="#建模-1"><span class="toc-section-number">2.2</span> 建模</a></li>
+<li><a href="#领域分析类概念"><span class="toc-section-number">2</span> 领域分析类概念</a><ul>
+<li><a href="#问题空间-problem-space"><span class="toc-section-number">2.1</span> 问题空间 (Problem Space)</a></li>
+<li><a href="#领域domain"><span class="toc-section-number">2.2</span> 领域（Domain）</a></li>
+<li><a href="#子域-sub-domain"><span class="toc-section-number">2.3</span> 子域 (Sub Domain)</a></li>
+<li><a href="#核心域-core-domain"><span class="toc-section-number">2.4</span> 核心域 (Core Domain)</a></li>
+<li><a href="#支撑域-support-domain"><span class="toc-section-number">2.5</span> 支撑域 (Support Domain)</a></li>
+<li><a href="#通用域-general-domain"><span class="toc-section-number">2.6</span> 通用域 (General Domain)</a></li>
 </ul></li>
-<li><a href="#软件设计类概念"><span class="toc-section-number">3</span> 软件设计类概念</a></li>
-<li><a href="#事件风暴类概念"><span class="toc-section-number">4</span> 事件风暴类概念</a></li>
-<li><a href="#软件设计类概念-1"><span class="toc-section-number">5</span> 软件设计类概念</a></li>
-<li><a href="#事件风暴类概念-1"><span class="toc-section-number">6</span> 事件风暴类概念</a></li>
+<li><a href="#建模类概念"><span class="toc-section-number">3</span> 建模类概念</a><ul>
+<li><a href="#解空间-solution-space"><span class="toc-section-number">3.1</span> 解空间 (Solution Space)</a></li>
+<li><a href="#领域模型model"><span class="toc-section-number">3.2</span> 领域模型（Model）</a></li>
+<li><a href="#限界上下文-bounded-context"><span class="toc-section-number">3.3</span> 限界上下文（ Bounded context）</a></li>
+<li><a href="#实体entity"><span class="toc-section-number">3.4</span> 实体（Entity）</a></li>
+<li><a href="#值对象value-object"><span class="toc-section-number">3.5</span> 值对象（Value Object）</a></li>
+<li><a href="#聚合aggregate"><span class="toc-section-number">3.6</span> 聚合（Aggregate）</a></li>
+<li><a href="#聚合根-aggregate-root"><span class="toc-section-number">3.7</span> 聚合根（ Aggregate Root）</a></li>
+</ul></li>
+<li><a href="#事件风暴类概念"><span class="toc-section-number">4</span> 事件风暴类概念</a><ul>
+<li><a href="#事件风暴event-storming"><span class="toc-section-number">4.1</span> 事件风暴（Event Storming）</a></li>
+<li><a href="#执行者-actor"><span class="toc-section-number">4.2</span> 执行者 (Actor)</a></li>
+<li><a href="#命令-command"><span class="toc-section-number">4.3</span> 命令 (Command)</a></li>
+<li><a href="#事件event"><span class="toc-section-number">4.4</span> 事件（Event）</a></li>
+<li><a href="#业务规则-policy"><span class="toc-section-number">4.5</span> 业务规则 (policy)</a></li>
+<li><a href="#用户-user"><span class="toc-section-number">4.6</span> 用户 (User)</a></li>
+<li><a href="#外部系统-out-system"><span class="toc-section-number">4.7</span> 外部系统 (Out System)</a></li>
+<li><a href="#本系统-system"><span class="toc-section-number">4.8</span> 本系统 (System)</a></li>
+<li><a href="#定时器-timer"><span class="toc-section-number">4.9</span> 定时器 (Timer)</a></li>
+<li><a href="#参与人-participants"><span class="toc-section-number">4.10</span> 参与人 (Participants)</a></li>
+<li><a href="#领域专家-domain-expert"><span class="toc-section-number">4.11</span> 领域专家 (Domain Expert)</a></li>
+<li><a href="#技术专家-tech-expert"><span class="toc-section-number">4.12</span> 技术专家 (Tech Expert)</a></li>
+<li><a href="#主持人-facilitator"><span class="toc-section-number">4.13</span> 主持人 (Facilitator)</a></li>
+</ul></li>
+<li><a href="#软件设计类概念"><span class="toc-section-number">5</span> 软件设计类概念</a><ul>
+<li><a href="#模块module"><span class="toc-section-number">5.1</span> 模块（Module）</a></li>
+<li><a href="#仓储repository"><span class="toc-section-number">5.2</span> 仓储（Repository）</a></li>
+<li><a href="#服务service"><span class="toc-section-number">5.3</span> 服务（Service）</a></li>
+<li><a href="#工厂factory"><span class="toc-section-number">5.4</span> 工厂（Factory）</a></li>
+<li><a href="#策略strategy"><span class="toc-section-number">5.5</span> 策略（Strategy）</a></li>
+<li><a href="#规格-specification"><span class="toc-section-number">5.6</span> 规格 (Specification)</a></li>
+<li><a href="#分层架构逻辑"><span class="toc-section-number">5.7</span> 分层架构（逻辑）</a></li>
+<li><a href="#接入层-interface"><span class="toc-section-number">5.8</span> 接入层 (Interface)</a></li>
+<li><a href="#应用层-application"><span class="toc-section-number">5.9</span> 应用层 (Application)</a></li>
+<li><a href="#领域层-domain"><span class="toc-section-number">5.10</span> 领域层 (Domain)</a></li>
+<li><a href="#基础设施层-infrastructure"><span class="toc-section-number">5.11</span> 基础设施层 (Infrastructure)</a></li>
+<li><a href="#部署架构物理"><span class="toc-section-number">5.12</span> 部署架构（物理）</a></li>
+<li><a href="#微服务-micro-service"><span class="toc-section-number">5.13</span> 微服务 (Micro Service)</a></li>
+<li><a href="#单体-monomer"><span class="toc-section-number">5.14</span> 单体 (Monomer)</a></li>
+<li><a href="#分布式应用系统-distributed"><span class="toc-section-number">5.15</span> 分布式应用系统 (Distributed)</a></li>
+</ul></li>
 </ul>
 </nav>
 
 <div class="detail">
     <h1 id="通用类概念"><span class="header-section-number">1</span> 通用类概念</h1>
-    <h2 id="模型"><span class="header-section-number">1.1</span> 模型</h2>
-    <h2 id="建模"><span class="header-section-number">1.2</span> 建模</h2>
-    <h1 id="建模类概念"><span class="header-section-number">2</span> 建模类概念</h1>
-    <h2 id="模型-1"><span class="header-section-number">2.1</span> 模型</h2>
-    <h2 id="建模-1"><span class="header-section-number">2.2</span> 建模</h2>
-    <h1 id="软件设计类概念"><span class="header-section-number">3</span> 软件设计类概念</h1>
+    <h2 id="领域驱动设计ddd"><span class="header-section-number">1.1</span> 领域驱动设计（DDD）</h2>
+    <h2 id="模型驱动设计model-driven-design"><span class="header-section-number">1.2</span> 模型驱动设计（Model driven design）</h2>
+    <h2 id="建模-modeling"><span class="header-section-number">1.3</span> 建模 (Modeling)</h2>
+    <h2 id="模型-model"><span class="header-section-number">1.4</span> 模型 (Model)</h2>
+    <h2 id="软件设计the-software-design"><span class="header-section-number">1.5</span> 软件设计（The software design）</h2>
+    <h2 id="战略设计strategic-design"><span class="header-section-number">1.6</span> 战略设计（Strategic Design）</h2>
+    <h2 id="战术设计-tactical-design"><span class="header-section-number">1.7</span> 战术设计 (Tactical design)</h2>
+    <h2 id="软件-software"><span class="header-section-number">1.8</span> 软件 (Software)</h2>
+    <h2 id="原则principle"><span class="header-section-number">1.9</span> 原则（Principle）</h2>
+    <h2 id="通用语言ubiquitous"><span class="header-section-number">1.10</span> 通用语言（Ubiquitous）</h2>
+    <h2 id="聚焦核心域-focus"><span class="header-section-number">1.11</span> 聚焦核心域 (Focus)</h2>
+    <h2 id="协作共创-collaboration"><span class="header-section-number">1.12</span> 协作共创 (Collaboration)</h2>
+    <h2 id="持续建模-continuous"><span class="header-section-number">1.13</span> 持续建模 (Continuous)</h2>
+    <h2 id="上下文context"><span class="header-section-number">1.14</span> 上下文（Context）</h2>
+    <h1 id="领域分析类概念"><span class="header-section-number">2</span> 领域分析类概念</h1>
+    <h2 id="问题空间-problem-space"><span class="header-section-number">2.1</span> 问题空间 (Problem Space)</h2>
+    <h2 id="领域domain"><span class="header-section-number">2.2</span> 领域（Domain）</h2>
+    <h2 id="子域-sub-domain"><span class="header-section-number">2.3</span> 子域 (Sub Domain)</h2>
+    <h2 id="核心域-core-domain"><span class="header-section-number">2.4</span> 核心域 (Core Domain)</h2>
+    <h2 id="支撑域-support-domain"><span class="header-section-number">2.5</span> 支撑域 (Support Domain)</h2>
+    <h2 id="通用域-general-domain"><span class="header-section-number">2.6</span> 通用域 (General Domain)</h2>
+    <h1 id="建模类概念"><span class="header-section-number">3</span> 建模类概念</h1>
+    <h2 id="解空间-solution-space"><span class="header-section-number">3.1</span> 解空间 (Solution Space)</h2>
+    <h2 id="领域模型model"><span class="header-section-number">3.2</span> 领域模型（Model）</h2>
+    <h2 id="限界上下文-bounded-context"><span class="header-section-number">3.3</span> 限界上下文（ Bounded context）</h2>
+    <h2 id="实体entity"><span class="header-section-number">3.4</span> 实体（Entity）</h2>
+    <h2 id="值对象value-object"><span class="header-section-number">3.5</span> 值对象（Value Object）</h2>
+    <h2 id="聚合aggregate"><span class="header-section-number">3.6</span> 聚合（Aggregate）</h2>
+    <h2 id="聚合根-aggregate-root"><span class="header-section-number">3.7</span> 聚合根（ Aggregate Root）</h2>
     <h1 id="事件风暴类概念"><span class="header-section-number">4</span> 事件风暴类概念</h1>
-    <h1 id="软件设计类概念-1"><span class="header-section-number">5</span> 软件设计类概念</h1>
-    <h1 id="事件风暴类概念-1"><span class="header-section-number">6</span> 事件风暴类概念</h1>
+    <h2 id="事件风暴event-storming"><span class="header-section-number">4.1</span> 事件风暴（Event Storming）</h2>
+    <h2 id="执行者-actor"><span class="header-section-number">4.2</span> 执行者 (Actor)</h2>
+    <h2 id="命令-command"><span class="header-section-number">4.3</span> 命令 (Command)</h2>
+    <h2 id="事件event"><span class="header-section-number">4.4</span> 事件（Event）</h2>
+    <h2 id="业务规则-policy"><span class="header-section-number">4.5</span> 业务规则 (policy)</h2>
+    <h2 id="用户-user"><span class="header-section-number">4.6</span> 用户 (User)</h2>
+    <h2 id="外部系统-out-system"><span class="header-section-number">4.7</span> 外部系统 (Out System)</h2>
+    <h2 id="本系统-system"><span class="header-section-number">4.8</span> 本系统 (System)</h2>
+    <h2 id="定时器-timer"><span class="header-section-number">4.9</span> 定时器 (Timer)</h2>
+    <h2 id="参与人-participants"><span class="header-section-number">4.10</span> 参与人 (Participants)</h2>
+    <h2 id="领域专家-domain-expert"><span class="header-section-number">4.11</span> 领域专家 (Domain Expert)</h2>
+    <h2 id="技术专家-tech-expert"><span class="header-section-number">4.12</span> 技术专家 (Tech Expert)</h2>
+    <h2 id="主持人-facilitator"><span class="header-section-number">4.13</span> 主持人 (Facilitator)</h2>
+    <h1 id="软件设计类概念"><span class="header-section-number">5</span> 软件设计类概念</h1>
+    <h2 id="模块module"><span class="header-section-number">5.1</span> 模块（Module）</h2>
+    <h2 id="仓储repository"><span class="header-section-number">5.2</span> 仓储（Repository）</h2>
+    <h2 id="服务service"><span class="header-section-number">5.3</span> 服务（Service）</h2>
+    <h2 id="工厂factory"><span class="header-section-number">5.4</span> 工厂（Factory）</h2>
+    <h2 id="策略strategy"><span class="header-section-number">5.5</span> 策略（Strategy）</h2>
+    <h2 id="规格-specification"><span class="header-section-number">5.6</span> 规格 (Specification)</h2>
+    <h2 id="分层架构逻辑"><span class="header-section-number">5.7</span> 分层架构（逻辑）</h2>
+    <h2 id="接入层-interface"><span class="header-section-number">5.8</span> 接入层 (Interface)</h2>
+    <h2 id="应用层-application"><span class="header-section-number">5.9</span> 应用层 (Application)</h2>
+    <h2 id="领域层-domain"><span class="header-section-number">5.10</span> 领域层 (Domain)</h2>
+    <h2 id="基础设施层-infrastructure"><span class="header-section-number">5.11</span> 基础设施层 (Infrastructure)</h2>
+    <h2 id="部署架构物理"><span class="header-section-number">5.12</span> 部署架构（物理）</h2>
+    <h2 id="微服务-micro-service"><span class="header-section-number">5.13</span> 微服务 (Micro Service)</h2>
+    <h2 id="单体-monomer"><span class="header-section-number">5.14</span> 单体 (Monomer)</h2>
+    <h2 id="分布式应用系统-distributed"><span class="header-section-number">5.15</span> 分布式应用系统 (Distributed)</h2>
 </div>
 
 </body>
