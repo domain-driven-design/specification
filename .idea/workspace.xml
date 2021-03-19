@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fcd3046-36b5-4404-95a8-6643f2927d2b" name="Default Changelist" comment="add other">
+    <list default="true" id="5fcd3046-36b5-4404-95a8-6643f2927d2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/zh/ddd-concept-reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zh/ddd-concept-reference.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/en/ddd-concept-reference.md" beforeDir="false" afterPath="$PROJECT_DIR$/sources/en/ddd-concept-reference.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/en/ddd-design-workshop-guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/sources/en/ddd-design-workshop-guide.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/en/other-resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/sources/en/other-resources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/zh/ddd-design-workshop-guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/sources/zh/ddd-design-workshop-guide.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/zh/other-resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/sources/zh/other-resources.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +94,7 @@
       <workItem from="1608357310669" duration="1543000" />
       <workItem from="1610110043181" duration="8993000" />
       <workItem from="1615984280948" duration="256000" />
-      <workItem from="1616122703634" duration="22470000" />
+      <workItem from="1616122703634" duration="22546000" />
     </task>
     <task id="LOCAL-00001" summary="add vue config">
       <created>1584929560552</created>
@@ -283,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616166924942</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="regenerate docs">
+      <created>1616167565097</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1616167565097</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,16 +333,17 @@
     <MESSAGE value="optimize style" />
     <MESSAGE value="update en" />
     <MESSAGE value="add some data for concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some data for concepts" />
+    <MESSAGE value="regenerate docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="regenerate docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1616167462817">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1616167564912">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1610110257267" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1610118672111" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1616135268343" />
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1616167462817" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1616167564912" />
     <state x="144" y="93" key="DiffContextDialog" timestamp="1616142376093">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -354,13 +357,13 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="358" y="194" key="MultipleFileMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1608358177447" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1616166926067">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1616167566264">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1610110268959" />
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1610118595178" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1616135269661" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1616166926067" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1616167566264" />
     <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1610116453465">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
