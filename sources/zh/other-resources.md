@@ -15,10 +15,20 @@ numbersections: true
 
 # 书籍
 
-## 领域驱动设计（DDD）
+## 《领域驱动设计:软件核心复杂性应对之道》
+
+https://book.douban.com/subject/5344973/
+
+## 《实现领域驱动设计》
+
+https://book.douban.com/subject/25844633/
+
+## 《领域驱动设计精粹》
+
+https://book.douban.com/subject/30333944/
 
 # 讲座
 
-## 领域驱动设计（DDD）
+## 领域驱动设计峰会
 
-
+http://www.ddd-china.com/
