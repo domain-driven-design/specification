@@ -32,3 +32,9 @@ https://book.douban.com/subject/30333944/
 ## 领域驱动设计峰会
 
 http://www.ddd-china.com/
+
+# 其他
+
+## 《DDD 概念脑图》
+
+https://www.processon.com/view/link/5df7446fe4b0cfc88c3a6655#map
