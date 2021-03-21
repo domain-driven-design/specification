@@ -1,6 +1,5 @@
 
-# example './to-html.sh ddd-concept-reference en' to generate en version of file
-
+# example './to-html.sh en ddd-concept-reference' to generate en version of file
 title='domain-driven-design'
 lang=$1
 filename=$2
