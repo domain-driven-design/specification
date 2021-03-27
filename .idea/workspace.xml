@@ -32,6 +32,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -98,7 +103,7 @@
       <workItem from="1615984280948" duration="256000" />
       <workItem from="1616122703634" duration="24839000" />
       <workItem from="1616316234379" duration="16657000" />
-      <workItem from="1616575179515" duration="5857000" />
+      <workItem from="1616575179515" duration="12278000" />
     </task>
     <task id="LOCAL-00001" summary="add vue config">
       <created>1584929560552</created>
@@ -366,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616380528464</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add more information for part 4 5">
+      <created>1616740917881</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1616740917883</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +408,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="add vue config" />
     <MESSAGE value="build to docs" />
     <MESSAGE value="update home page" />
     <MESSAGE value="refactor build system" />
@@ -421,14 +432,15 @@
     <MESSAGE value="update zh concepts" />
     <MESSAGE value="update license by cc0" />
     <MESSAGE value="add Sponsor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Sponsor" />
+    <MESSAGE value="add more information for part 4 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more information for part 4 5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1616380527568">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1616740917729">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1616379441653" />
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1616380527568" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1616740917729" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1616135268343" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1616206217714" />
     <state x="144" y="93" key="DiffContextDialog" timestamp="1616380520737">
@@ -445,11 +457,11 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="358" y="194" key="MultipleFileMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1608358177447" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1616380530321">
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1616740919047">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1616379443022" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1616380530321" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1616740919047" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1616135269661" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1616206218936" />
     <state x="100" y="123" width="1240" height="606" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616380038576">
