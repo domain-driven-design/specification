@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # for idea
-.idea/
+.idea/**
 
 # for mac osx
 **/**/.DS_Store
