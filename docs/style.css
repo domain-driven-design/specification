@@ -68,7 +68,7 @@ ul {
     font-size: 14px;
 }
 
-.detail p {
+.detail p, .detail li {
     color: #444;
     font-size: 12px;
 }
