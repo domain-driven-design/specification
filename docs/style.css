@@ -73,6 +73,11 @@ ul {
     font-size: 12px;
 }
 
+.detail {
+    list-style: inside;
+    text-indent: 1rem;
+}
+
 #TOC {
     padding: 30px;
 }
