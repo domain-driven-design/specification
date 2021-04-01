@@ -73,7 +73,7 @@ ul {
     font-size: 12px;
 }
 
-.detail {
+.detail ul{
     list-style: inside;
     text-indent: 1rem;
 }
