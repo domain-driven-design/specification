@@ -1,6 +1,8 @@
 ---
 title: DDD 概念参考
 numbersections: true
+keywords: DDD 概念参考,领域驱动设计文档,领域驱动设计标准
+description-meta: DDD 是 Domain-Driven Design 的缩写，本文档提供了 DDD 的标准化释义。
 ---
 # 通用类概念
 
