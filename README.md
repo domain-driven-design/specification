@@ -12,6 +12,5 @@ Some definitions come from the book written by Eric Evans, and others are collec
 
 ## Sponsor
 
-<img width="100px" src="https://domain-driven-design.org/badges/tw-ddd-community.png" alt="ThoughtWorks DDD community" />
 <img width="100px" src="https://domain-driven-design.org/badges/accenture-logo.png" alt="Accenture" />
 
