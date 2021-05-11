@@ -38,3 +38,6 @@ http://www.ddd-china.com/
 ## 《DDD 概念脑图》
 
 https://www.processon.com/view/link/5df7446fe4b0cfc88c3a6655#map
+
+## 模型合集
+http://openmodel.io/
