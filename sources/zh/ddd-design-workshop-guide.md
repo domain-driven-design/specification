@@ -17,7 +17,7 @@ DDD 软件建模工作坊（以下简称 "工作坊"）有多种形式，当前�
 
 事件风暴是一种 “自底向上” 的设计方法，先关注具体的业务细节，然后通过归纳、聚合、抽象的方法获得整体层面的认知和设计。
 
-![DDD 建模的基本原理](ddd-design-workshop-guide/image-20210603165139932.png)
+![DDD 建模的基本原理](ddd-design-workshop-guide/process.png)
 
 # 事件风暴介绍
 
@@ -192,7 +192,9 @@ DDD 软件建模工作坊（以下简称 "工作坊"）有多种形式，当前�
    3. 用户管理
 3. 通用域。验证码发送、自动审核
 
-![场景地图](ddd-design-workshop-guide/image-20210603165139932.png)
+
+
+![场景地图](ddd-design-workshop-guide/scene-map.png)
 
 # 识别事件
 
@@ -347,10 +349,6 @@ DDD 软件建模工作坊（以下简称 "工作坊"）有多种形式，当前�
 
 ## 示例
 
-
-
-![image-20210609101921629](ddd-design-workshop-guide/image-20210609101921629.png)
-
 ![模型展开](ddd-design-workshop-guide/modeling-extract.png)
 
 # 限界上下文划分
@@ -379,11 +377,7 @@ DDD 软件建模工作坊（以下简称 "工作坊"）有多种形式，当前�
 
 ## 示例
 
-![image-20210609101754006](ddd-design-workshop-guide/image-20210609101754006.png)
-
 ![上下文映射](ddd-design-workshop-guide/context-mapping.png)
-
-
 
 由于我们的示例比较简单，这里再补充一个复杂的示例。
 
