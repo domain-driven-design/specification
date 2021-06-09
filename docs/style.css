@@ -23,6 +23,10 @@ ul {
     list-style: none;
 }
 
+ul li p {
+    display: inline;
+}
+
 .header-nav {
     height: 41px;
     background: #0b4e22;
