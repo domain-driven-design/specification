@@ -4,6 +4,8 @@ numbersections: true
 keywords: DDD 概念参考,领域驱动设计文档,领域驱动设计标准
 description-meta: DDD 是 Domain-Driven Design 的缩写，本文档提供了 DDD 的标准化释义。
 ---
+![DDD 基本概念图](ddd-concept-reference/concept-map-hd.png)
+
 # 通用类概念
 
 ## 领域驱动设计（DDD）
@@ -285,7 +287,7 @@ description-meta: DDD 是 Domain-Driven Design 的缩写，本文档提供了 DD
 ## 基础设施层（Infrastructure）
 
 **基础设施层，提供具体的技术实现，比如存储，基础设施对业务保持透明。**
- 
+
 对于基础设施层来说，基础设施层并不是指 MySQL、Redis 等外部组件，而是外部组件的适配器，Hibernate、Mybatis、Redis Template 等，因此在 DDD 中适配器模式被多次提到，基础设施层往往不能单独存在，还是要依附于领域层。技术设施层的适配器还包括了外部系统的适配，互联网产品系统的外部系统非常多，常见的有活体监测、风控系统、税务发票等。
 
 技术设施层的特点：
