@@ -260,7 +260,7 @@
     <h2 id="操作方法-3"><span class="header-section-number">7.2</span> 操作方法</h2>
     <ol type="1">
     <li>针对每一个领域事件，从业务视角上，寻找产生该事件直接相关的动作，识别为命令。</li>
-    <li>每一个领域事件都需要有一个命令对应。</li>
+    <li>每一个领域事件都至少有一个命令对应。</li>
     <li>命令尽可能使用有意义的业务术语， 避免将事件倒过来写作为命令。因为，一个命令可以对应多个事件。比如用户被添加，可以是管理员 “添加用户”命令实现，也可能是用户 “注册”的命令实现。</li>
     <li>每一个命令需要注明执行者。“执行者” - “命令” - “事件”构成一个逻辑合理的句子。</li>
     <li>如果命令由上一个事件触发，可以使用箭头标注，可以省略执行者。</li>
@@ -374,13 +374,13 @@
        VerifyCode &lt;&lt;Aggregate Root&gt;&gt;
        Authorization &lt;&lt;Aggregate Root&gt;&gt;
     }
-
+    
     namespace question-context {
       Question &lt;&lt;Aggregate Root&gt;&gt;
       Anwser &lt;&lt;Entity&gt;&gt;
       Question &quot;1&quot; *-- &quot;N&quot; Anwser
     }
-
+    
     namespace space-context {
       Space &lt;&lt;Aggregate Root&gt;&gt;
       SpaceMember &lt;&lt;Entity&gt;&gt;
