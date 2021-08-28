@@ -426,10 +426,10 @@ namespace space-context {
 
 # 参考资料
 
-- https://blog.csdn.net/xiaofeng10330111/article/details/105358094 《如何使用事件风暴构建领域模型》
-- https://zhuanlan.zhihu.com/p/95001438 【领域驱动设计】事件风暴小体验
-- http://www.360doc.com/content/19/0802/20/366082_852637712.shtml 《使用事件风暴探索业务全景》
-- http://www.woshipm.com/pmd/3548368.html 如何用“电梯演讲”表述你的产品愿景?
-- https://smapxy.axshare.com 管理员端原型图
-- https://5kebz3.axshare.com 用户端原型图
+- [《如何使用事件风暴构建领域模型》](https://blog.csdn.net/xiaofeng10330111/article/details/105358094)
+- [【领域驱动设计】事件风暴小体验](https://zhuanlan.zhihu.com/p/95001438)
+- [《使用事件风暴探索业务全景》](http://www.360doc.com/content/19/0802/20/366082_852637712.shtml)
+- [如何用“电梯演讲”表述你的产品愿景?](http://www.woshipm.com/pmd/3548368.html )
+- [管理员端原型图](https://smapxy.axshare.com)
+- [用户端原型图](https://5kebz3.axshare.com)
 
